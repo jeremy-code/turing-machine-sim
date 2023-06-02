@@ -1,4 +1,4 @@
-from typing import List, Union
+from typing import Union
 from rich.table import Table
 from rich.layout import Layout
 from rich.style import Style
@@ -7,7 +7,7 @@ from rich.panel import Panel
 
 from tape import Tape
 
-ROW_STYLES: List[Union[Style, str]] = [
+ROW_STYLES: list[Union[Style, str]] = [
     Style(bold=True),
     Style(color="cyan", bold=True),
     Style(color="white"),
